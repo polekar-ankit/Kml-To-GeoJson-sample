@@ -1,4 +1,4 @@
-package gipl.com.kmldemo;
+package at.com.kmldemo;
 
 import android.graphics.Color;
 import android.os.AsyncTask;
@@ -34,6 +34,7 @@ import java.util.HashMap;
 import java.util.List;
 
 
+
 public class MainActivity extends AppCompatActivity {
     private MapView mapView;
     private MapboxMap map;
@@ -41,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
     private FolderOverlay folderOverlay;
     private DrawGeoJson drawGeoJson;
     private boolean fCreated;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,8 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
         //here we are going to convert and save KML file from row folder to Sdcard
         InputStream ins = getResources().openRawResource(
-                getResources().getIdentifier("pmc_election_ward_boundaries",
-                        "raw", getPackageName()));
+                getResources().getIdentifier("pmc_election_ward_boundaries", "raw", getPackageName()));
 
 
         kmlDocument = new KmlDocument();

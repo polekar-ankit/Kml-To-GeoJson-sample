@@ -1,4 +1,4 @@
-package gipl.com.kmldemo;
+package at.com.kmldemo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("gipl.com.kmldemo", appContext.getPackageName());
+        assertEquals("at.com.kmldemo", appContext.getPackageName());
     }
 }

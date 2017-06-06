@@ -1,4 +1,4 @@
-package gipl.com.kmldemo;
+package at.com.kmldemo;
 
 import org.junit.Test;
 
