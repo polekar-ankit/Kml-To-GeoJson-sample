@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
         mapView.onCreate(savedInstanceState);
         mapView.setStyleUrl(getString(R.string.map_url));
 
-
         //here we are going to convert and save KML file from row folder to Sdcard
         InputStream ins = getResources().openRawResource(
                 getResources().getIdentifier("pmc_election_ward_boundaries", "raw", getPackageName()));

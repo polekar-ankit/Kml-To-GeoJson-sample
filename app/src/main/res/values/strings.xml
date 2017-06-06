@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Kml Demo</string>
-    <string name="access_token">pk.eyJ1IjoiYWRpc2F0aGUiLCJhIjoiM2Q3Y2RiMzYzYjQ3ZmFiMzk4ODZiZDRkZjY2M2RlNGIifQ.R9pJSUDDZON_vxfvwCPGQQ</string>
+    <string name="access_token">PUT_MAP_BOX_KEY_HERE</string>
     <string name="map_url">mapbox://styles/adisathe/citzby5nc00ff2irqms8h3jwy</string>
 </resources>

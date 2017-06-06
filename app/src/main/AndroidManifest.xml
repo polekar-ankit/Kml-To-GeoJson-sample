@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="gipl.com.kmldemo">
+    package="at.com.kmldemo">
 
 
 
@@ -22,7 +22,7 @@
         <service android:name="com.mapbox.mapboxsdk.telemetry.TelemetryService" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDzFKz75QSJrlwE48eMH1LeANHEP78tCPQ" />
+            android:value="PUT_KEY_HERE" />
     </application>
 
 </manifest>
